@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <title>ECOMMERCE</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="izquierda">
+                <a href="" target="_blank">
+                    <button>English</button>
+                </a>
+                <a href="" target="_blank">
+                    <button>Dollar</button>
+                </a>
+            </div>
+            <div class="derecha">
+                <a href="" target="_blank">Tracking Package</a>
+                <a href="" target="_blank">FAQ</a>
+                <a href="" target="_blank">About Us</a>
+                <a href="" target="_blank">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="linea"></div>
+
+        <div class="ecommerce">
+            <div class="header-ecommerce">
+                <div class="titulo">ECOMMERCE</div>
+                <div class="busqueda">
+                    <input type="search" placeholder="Search here">
+                    <input type="submit" class="material-symbols-outlined" value="search">
+                </div>
+                <div class="category">
+                    <a href="" target="_blank">All category</a>
+                </div>
+                <div class="gift">
+                    <a href="" target="_blank">Gift Cards</a>
+                </div>
+                <div class="event">
+                    <a href="" target="_blank">Special Event</a>
+                </div>
+            </div>
+            <div class="perfil">
+                <a href="#" target="_blank"><i class="fa-solid fa-heart"></i></a>
+                <a href="#" target="_blank"><i class="fa-solid fa-user"></i></a>
+                <a href="#" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="imagenes">
+                <div class="fotos-main">
+                    <div class="img1">
+                        <!-- foto 1 -->
+                        <img src="https://images.unsplash.com/photo-1538581746996-f1d586de2905?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </div>
+                    <div class="img2">
+                        <!-- foto 2 -->
+                        <img src="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?q=80&w=2122&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" >
+                    </div>
+                    <div class="img3">
+                        <!-- foto 3 -->
+                        <!-- <img src="https://images.unsplash.com/photo-1528629297340-d1d466945dc5?q=80&w=2122&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" > -->
+                        <img src="https://scontent.faep17-1.fna.fbcdn.net/v/t39.30808-6/311621072_668889254832141_8201823829097125521_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFrBz25AThM_kD7px2aJ6lyqmUi1fKYK2uqZSLV8pgra_7MRSsd4QBqPX2-xVw2bmE3uJCBN64b8OylIP8qunzi&_nc_ohc=S9mwFeBYJgoQ7kNvgGqBA_-&_nc_zt=23&_nc_ht=scontent.faep17-1.fna&_nc_gid=eyLCx0FUZP7jbazxw7ignw&oh=00_AYGU2GqPX3LHiHbox0gtYPq9bF9OKvtXgmETnoX2BqTuHg&oe=67DCD586" alt="">
+                    </div>
+                </div>
+                <div class="img4">
+                    foto 4
+                    <!-- <img src="https://m.media-amazon.com/images/I/8112GxGQL1L.jpg" alt=""> -->
+                </div>
+                <div class="img5">
+                    foto 5
+                    <!-- <img src="https://album.mediaset.es/eimg/2024/10/01/moda_5faa.jpg?w=1024" alt=""> -->
+                </div>
+                <div class="texto-img">
+                    <div class="titulo">Casual <br>Inspirations</div>
+                    <div class="texto">Our favorite combinations for casual outfit that can inspire you to apply on your daily activity</div>
+                    <div class="btn-casual">
+                        <a href="" target="_blank" class="btn-browse">BROWSE INSPIRATIONS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trending">
+
+        </div>
+
+        <div class="colores">
+
+        </div>
+
+        <div class="info">
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </body>
+</html>

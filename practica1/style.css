@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.tarjeta {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 250px;
+}
+
+.foto_perfil img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.nombre {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.habilidad {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.conoceme {
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+/* .conoceme button {
+    background-color: #007bff;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}  */
+
+/* .conoceme a{
+    text-decoration: none;
+    color: white;
+} */
+
+/* .conoceme button:hover {
+    background-color: #005ab9;
+    transition: background 0.3s;
+} */
+
+.btn-conoceme {
+    display: inline-block;
+    background-color: #007bff;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-conoceme:hover {
+    background-color: #005ab9;
+}
+
+.btns {
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+}
+
+.btns button {
+    /* background-color: violet; */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btns a {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 40px;
+}
+
+.btns a:hover {
+    color: rgb(155, 155, 155);
+    transition: background 0.8s;
+}
+
+.linea {
+    border: 1px solid #afafaf;
+}

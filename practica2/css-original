@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.linea {
+    border: 1px solid #dbdbdb;
+}
+
+.header {
+    /* background-color: red; */
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izquierda a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 12px;
+}
+
+.izquierda button {
+    border: none;
+    /* background-color: #f4f4f4; */
+    background-color: transparent;
+    color: #5f5f5f;
+    cursor: pointer;
+}
+
+.derecha a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.ecommerce {
+    padding: 20px 50px 10px 45px;
+}
+
+.header-ecommerce .titulo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.busqueda {
+    position: absolute;
+    top: 60px;
+    left: 240px;
+    background-color: transparent;
+    width: 280px;
+    height: 25px;
+    margin: auto;
+    border: 1px solid;
+    /* box-shadow: 0 18px 20px -8px rgba(0, 0, 0, 0.452); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.busqueda input[type = "submit"] {
+    height: 60px;
+    width: 50px;
+    font-size: 15pt;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.busqueda input[type = "search"] {
+    height: 100%;
+    /* width: calc( 100% - 120px ); */
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 20px;
+    font-size: 11pt;
+    background-color: transparent;
+}
+
+.busqueda input[type = "search"]:focus {
+    font-size: 12pt;
+    transition: all 200ms ease;
+}
+
+.busqueda input[type = "submit"]:active {
+    font-size: 17pt;
+}
+
+.category a{
+    position: absolute;
+    top: 65px;
+    left: 550px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.gift a{
+    position: absolute;
+    top: 65px;
+    left: 660px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.event a{
+    position: absolute;
+    top: 65px;
+    left: 755px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.perfil {
+    /* background-color: red; */
+    position: absolute;
+    right: 40px;
+    top: 65px;
+    font-size: 16pt;
+}
+
+.perfil a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.imagenes {
+    background-color: red;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.fotos-main {
+    background-color: aqua;
+}
+
+.imagenes .img1 {
+    /* background-color: green; */
+    width: 70%;
+    /* border-radius: 30px; */
+    /* overflow: hidden; */
+}
+
+.imagenes .img1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.imagenes .img2 {
+    /* background-color: violet; */
+    width: 27%;
+    height: 31%;
+    position: absolute;
+    right: 50px;
+    top: 109px;
+    overflow: hidden;
+    /* border-radius: 30px; */
+}
+
+.imagenes .img2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imagenes .img3 {
+    /* background-color: lightblue; */
+    width: 27%;
+    height: 31%;
+    position: absolute;
+    right: 50px;
+    top: 384px;
+    overflow: hidden;
+    /* border-radius: 30px; */
+}
+
+.imagenes .img3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.texto-img .titulo {
+
+    font-size: 50px;
+}
+
+.btn-casual {
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.btn-browse {
+    display: inline-block;
+    /* background-color: #007bff; */
+    background-color: transparent;
+    /* width: 150px; */
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-browse:hover {
+    background-color: #dadada;
+}
+
+
+/* ------------------------------------------------ DIV OPINION ORIGINAL ----------------------------------------------- */
+
+.opinion {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+.tarjeta-op {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+    align-items: stretch;
+    position: relative;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+
+.img-op {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+}
+
+.img-op img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.texto-op1 {
+    /* background-color: red; */
+    color: #d1d1d1;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 20px;
+}
+
+.texto-op2 {
+    /* background-color: red; */
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: 40px;
+}
+
+.texto-op3 {
+    /* background-color: red; */
+    width: 31%;
+    color: #d1d1d1;
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    font-size: 13px;
+}
+
+.texto-op4 {
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 60px;
+}
+
+.texto-op5 {
+    color: #d1d1d1;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    font-size: 10px;
+}
+
+.info {
+    background-color: red;
+}

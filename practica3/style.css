@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/*  MOVIL  */
+@media (min-width: 0px) and (max-width: 480px) {
+    body {
+        font-size: 16px;
+        background-color: black;
+        color: gray;
+    }
+    
+    .container {
+        background-color: aquamarine;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+    .pc2 {
+        display: none;
+    }
+}
+
+/*  TABLETS  */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        background-color: lightblue;
+        color: gray;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5%;
+    }
+
+    .container {
+        background-color: green;
+        width: 80%;
+    }
+
+    .movil {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+    .pc2 {
+        display: none;
+    }
+}
+
+/*  LAPTOP  */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 20px;
+        background-color: antiquewhite;
+        color: gray;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5%;
+    }
+
+    .container {
+        background-color: beige;
+        width: 60%;
+        padding: 20px;
+    }
+
+    .movil {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+    .pc2 {
+        display: none;
+    }
+}
+
+/*  PC  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        font-size: 20px;
+        background-color:rgb(51, 91, 124);
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5%;
+    }
+
+    .container {
+        background-color: rgb(122, 122, 89);
+        width: 100%;
+        padding: 20px;
+    }
+
+    .movil {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pc2 {
+        display: none;
+    }
+}
+
+/*  PANTALLAS GRANDES  */
+@media (min-width: 1281px) {
+    body {
+        font-size: 20px;
+        background-color:rgb(106, 30, 0)e;
+        color: gray;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5%;
+    }
+
+    .container {
+        background-color: rgb(210, 210, 8);
+        width: 60%;
+        padding: 20px;
+    }
+
+    .movil {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+}
